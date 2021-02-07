@@ -1,14 +1,14 @@
-Take a look at the attached CSV file.<br/>
+Take a look at the attached CSV file.
 
-The CSV encodes annotated data where:<br/>
-- each row corresponds to an annotated sample (y, x) where x is the feature vector and y the label.<br/>
+The CSV encodes annotated data where:
+- each row corresponds to an annotated sample (y, x) where x is the feature vector and y the label.
 In each row:<br/>
-- the first column is the label value y in {0, 1}.<br/>
+- the first column is the label value y in {0, 1}.
 
-- the remaining columns are the coefficients of the feature vectors of dimension 337<br/>
+- the remaining columns are the coefficients of the feature vectors of dimension 337
 
 **Questions:**
-<br/>
+
 Write in Python
 
  
@@ -19,7 +19,9 @@ A) (Re-)Implement the following functions in separate utility module:
 
   - to produce a balanced data
 
-If possible we prefer that the candidate reworks ready-to-use helper functions in the learning frameworks using standard ML libraries, rather than exotic tailored libraries (just avoid install new libraries on top of your standard set)
+If possible we prefer that the candidate reworks ready-to-use helper functions
+ in the learning frameworks using standard ML libraries, rather than exotic tailored libraries
+ (just avoid install new libraries on top of your standard set)
 
  
 
@@ -39,7 +41,8 @@ BONUS:
 
  
 
-Assume you need to implement an extension to be incorporated into a larger project where an input feature vector is generated. Your 'training' features and lables are currenty saved in CSV.
+Assume you need to implement an extension to be incorporated into a larger project where an input feature vector is generated.
+Your 'training' features and lables are currenty saved in CSV.
 
  
 
@@ -67,7 +70,7 @@ You will be assessed on 3 criteria:
   - Testing of the code
 
     Do not skip your work verification step.
-<br/>
+
 
 
 - Attention to details, tidiness.
