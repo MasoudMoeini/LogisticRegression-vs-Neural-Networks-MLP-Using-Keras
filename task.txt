@@ -1,0 +1,75 @@
+Take a look at the attached CSV file.<br/>
+
+The CSV encodes annotated data where:<br/>
+- each row corresponds to an annotated sample (y, x) where x is the feature vector and y the label.<br/>
+In each row:<br/>
+- the first column is the label value y in {0, 1}.<br/>
+
+- the remaining columns are the coefficients of the feature vectors of dimension 337<br/>
+
+**Questions:**
+<br/>
+Write in Python
+
+ 
+
+A) (Re-)Implement the following functions in separate utility module:
+
+ 
+
+  - to produce a balanced data
+
+If possible we prefer that the candidate reworks ready-to-use helper functions in the learning frameworks using standard ML libraries, rather than exotic tailored libraries (just avoid install new libraries on top of your standard set)
+
+ 
+
+  - to randomize the data.
+
+ 
+
+  - to populate the training and validation data.
+
+ 
+
+Please explain why we need to implement each of these functions.
+
+ 
+
+BONUS:
+
+ 
+
+Assume you need to implement an extension to be incorporated into a larger project where an input feature vector is generated. Your 'training' features and lables are currenty saved in CSV.
+
+ 
+
+B) Implement a training pipeline to solve this classification problem using your favorite deep learning framework.
+
+ 
+
+ 
+
+ASSESSMENT:
+
+ 
+
+You will be assessed on 3 criteria:
+
+  - Quality of the implementation
+
+   -Quality of the model is important, but quality of the code is essential.
+
+
+  - Concise and informative comments:
+
+    Avoid dry explanations.
+
+  - Testing of the code
+
+    Do not skip your work verification step.
+<br/>
+
+
+- Attention to details, tidiness.
+
+     Getting the job done is good but the way the work is executed also counts.
