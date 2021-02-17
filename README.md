@@ -1,5 +1,5 @@
 ## Multilayer Perceptron 
-The purpose of this codes is to compare Logistic Regression vs multilayer perceptron (MLP) Using Keras library in order to practice "building prediction model" from imbalanced rough data set with 338 input features.<br/>
+The purpose of this coding experience is to compare Logistic Regression vs multilayer perceptron (MLP) Using Keras library in order to practice "building prediction model" from imbalanced rough data set with 338 input features.<br/>
 <br/>
 **Click on**: 
 - **[task.txt](https://github.com/MasoudMoeini/LogisticRegression-vs-Neural-Networks-MLP-Using-Keras/blob/master/task.txt)** file, to see assigned tasks for developer <br/>
